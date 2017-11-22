@@ -31,8 +31,9 @@ d:\library\jsoncpp-master\include\json\writer.h(279): warning C4996: 'Json::Styl
 d:\library\jsoncpp-master\include\json\writer.h(279): warning C4996: 'Json::StyledStreamWriter::indentation_': Use StreamWriterBuilder instead
   d:\library\jsoncpp-master\include\json\writer.h(310): note: 参见“Json::StyledStreamWriter::indentation_”的声明
 d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(316): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(608): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(609): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(516): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(625): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(626): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
 d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(240): warning C4715: “PossibilitySort::Add”: 不是所有的控件路径都返回值
 d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(284): warning C4715: “PossibilitySort::Add_”: 不是所有的控件路径都返回值
   Photo.vcxproj -> D:\Program\VS code\Algrithem\PhotoV2\x64\Debug\PhotoV2.exe

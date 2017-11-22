@@ -2,7 +2,7 @@
  * common.hpp
  *
  *  Created on: Oct 25, 2011
- *      Author: prathamesh
+ *      Author: Tony
  */
 
 #ifndef COMMON_HPP_
@@ -498,32 +498,49 @@ string PhotoInterface::PhotoSortAuto(Rect &input_rect, vector<Photo> &input_phot
 	findContours(mat_grey, lcontours, lhierarchy, CV_RETR_CCOMP, CV_CHAIN_APPROX_NONE, Point(0, 0));
 	vector<vector<Rect>> results;
 	int bordercell = input_rect.width / 30;
+	vector<Rect> choosen;
 	while (true)
 	{
-		PhotoSort instanse(input_rect.width / 30, 1);
+		PhotoSort instanse(input_rect.width / 30, 3);
 		instanse.input_background = src.clone();
 		int res = instanse.SortAuto(input_photo, lcontours[0]);
 		int number_flag = 0;
-		for (auto result : instanse.results_)  //遍历所有结果
+		int max_score = 0;
+		//vector<Rect> choosen;
+		for (auto result : instanse.results_)  //遍历所有结果,进行评分
 		{
 			number_flag++;
-			results.push_back(result.second);
-			auto a = src.clone();
-			std::cout << "area = " << result.first << endl;
-			for (auto rect : result.second)
-				rectangle(a, rect, Scalar(100, 255, 100), 1, 8);
-			//cv::resize(a, a, a.size() * 10, 0, 0, 0);
-			cv::imshow("result", a);
-			cout << "bordercell : " << bordercell << endl;
-			waitKey();  
+			int tempscore = 0;
+			vector<Rect> checked = result.second;
+
+			int all_num = checked.size();
+			for (int index_i = 0; index_i < all_num; index_i++)
+			{
+				for (int index_j = index_i; index_j < all_num; index_j++)
+				{
+					if (checked[index_i].x == checked[index_j].x || checked[index_i].y == checked[index_j].y)
+						tempscore += 1;
+				}
+			}
+			if (tempscore > max_score)
+			{
+				max_score = tempscore;
+				choosen = checked;
+			}
 			if (number_flag > 100)
 				break;
 
 		}
-	//	if (bordercell == 1)
+		//	if (bordercell == 1)
 		break;
 	}
-	vector<Rect> choosen = results[Random(results.size())];
+	auto a = src.clone();
+	for (auto rect : choosen)
+		rectangle(a, rect, Scalar(100, 255, 100), 1, 8);
+	//cv::resize(a, a, a.size() * 10, 0, 0, 0);
+	cv::imshow("result_nice", a);
+	waitKey();
+	//vector<Rect> choosen = results[Random(results.size())];
 	return Encode(choosen, input_photo);
 }
 
