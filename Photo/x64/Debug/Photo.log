@@ -1,0 +1,39 @@
+﻿  main.hpp
+d:\library\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\library\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\library\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\library\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\library\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\library\jsoncpp-master\include\json\writer.h(159): warning C4996: 'Json::Writer': Use StreamWriter instead
+  d:\library\jsoncpp-master\include\json\writer.h(143): note: 参见“Json::Writer”的声明
+d:\library\jsoncpp-master\include\json\writer.h(163): warning C4996: 'Json::Writer::~Writer': Use StreamWriter instead
+  d:\library\jsoncpp-master\include\json\writer.h(145): note: 参见“Json::Writer::~Writer”的声明
+d:\library\jsoncpp-master\include\json\writer.h(177): warning C4996: 'Json::Writer::write': Use StreamWriter instead
+  d:\library\jsoncpp-master\include\json\writer.h(147): note: 参见“Json::Writer::write”的声明
+d:\library\jsoncpp-master\include\json\writer.h(163): warning C4996: 'Json::FastWriter::document_': Use StreamWriterBuilder instead
+  d:\library\jsoncpp-master\include\json\writer.h(182): note: 参见“Json::FastWriter::document_”的声明
+d:\library\jsoncpp-master\include\json\writer.h(212): warning C4996: 'Json::Writer': Use StreamWriter instead
+  d:\library\jsoncpp-master\include\json\writer.h(143): note: 参见“Json::Writer”的声明
+d:\library\jsoncpp-master\include\json\writer.h(215): warning C4996: 'Json::Writer::~Writer': Use StreamWriter instead
+  d:\library\jsoncpp-master\include\json\writer.h(145): note: 参见“Json::Writer::~Writer”的声明
+d:\library\jsoncpp-master\include\json\writer.h(222): warning C4996: 'Json::Writer::write': Use StreamWriter instead
+  d:\library\jsoncpp-master\include\json\writer.h(147): note: 参见“Json::Writer::write”的声明
+d:\library\jsoncpp-master\include\json\writer.h(215): warning C4996: 'Json::StyledWriter::childValues_': Use StreamWriterBuilder instead
+  d:\library\jsoncpp-master\include\json\writer.h(240): note: 参见“Json::StyledWriter::childValues_”的声明
+d:\library\jsoncpp-master\include\json\writer.h(215): warning C4996: 'Json::StyledWriter::document_': Use StreamWriterBuilder instead
+  d:\library\jsoncpp-master\include\json\writer.h(241): note: 参见“Json::StyledWriter::document_”的声明
+d:\library\jsoncpp-master\include\json\writer.h(215): warning C4996: 'Json::StyledWriter::indentString_': Use StreamWriterBuilder instead
+  d:\library\jsoncpp-master\include\json\writer.h(242): note: 参见“Json::StyledWriter::indentString_”的声明
+d:\library\jsoncpp-master\include\json\writer.h(279): warning C4996: 'Json::StyledStreamWriter::childValues_': Use StreamWriterBuilder instead
+  d:\library\jsoncpp-master\include\json\writer.h(306): note: 参见“Json::StyledStreamWriter::childValues_”的声明
+d:\library\jsoncpp-master\include\json\writer.h(279): warning C4996: 'Json::StyledStreamWriter::indentString_': Use StreamWriterBuilder instead
+  d:\library\jsoncpp-master\include\json\writer.h(308): note: 参见“Json::StyledStreamWriter::indentString_”的声明
+d:\library\jsoncpp-master\include\json\writer.h(279): warning C4996: 'Json::StyledStreamWriter::indentation_': Use StreamWriterBuilder instead
+  d:\library\jsoncpp-master\include\json\writer.h(310): note: 参见“Json::StyledStreamWriter::indentation_”的声明
+d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(316): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(608): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(609): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(240): warning C4715: “PossibilitySort::Add”: 不是所有的控件路径都返回值
+d:\program\vs code\algrithem\photov2\photo\photosortv2.hpp(284): warning C4715: “PossibilitySort::Add_”: 不是所有的控件路径都返回值
+  Photo.vcxproj -> D:\Program\VS code\Algrithem\PhotoV2\x64\Debug\PhotoV2.exe
+  Photo.vcxproj -> D:\Program\VS code\Algrithem\PhotoV2\x64\Debug\PhotoV2.pdb (Full PDB)
